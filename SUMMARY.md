@@ -1,71 +1,63 @@
 # Sumário
 
-- [Capítulo de teste](chapter1.md)
+- [Alias](01-Alias.md) <!-- Criando apelidos para comandos do Shell -->
+- [Apt-get](02-Apt-get.md) <!-- Instalando pacotes pela linha de comando -->
+- [Archlinux](03-Archlinux.md) <!-- Instalando o sistema operacional -->
+- [Avconv](04-Avconv.md) <!-- Convertendo arquivos de multimídia -->
+- [BCrypt](05-BCrypt.md) <!-- Criptografando arquivos e pastas -->
+- [Brasero](06-Brasero.md) <!-- Gravando CDs e DVDs -->
+- [Diff](07-Diff.md) <!-- Comparando o conteúdo de arquivos e pastas -->
+- [Emacs](08-Emacs.md) <!-- Desvendando os mistérios deste ambiente -->
+- [Espeakup](09-Espeakup.md) <!-- Interagindo com o modo texto puro -->
+- [F123](10-F123.md) <!-- Instalando o sistema operacional -->
+- [Fedora](11-Fedora.md) <!-- Instalando o sistema operacional -->
+- [Firefox](12-Firefox.md) <!-- Bloqueando páginas de propaganda com o Ad Block Plus -->
+- [Firefox](13-Firefox.md) <!-- copiando tabelas com Tab2Clipboard -->
+- [Firefox](14-Firefox.md) <!-- Guardando na nuvem os favoritos com XMarks -->
+- [Firefox](15-Firefox.md) <!-- Habilitando o Flash para a reprodução de conteúdos multimídia -->
+- [GIT](16-GIT.md) <!-- Versionando informações de um projeto -->
+- [Gnome dictionary](17-Gnome-dictionary.md) <!-- Utilizando dicionário de inglês -->
+- [Gnome Session Fallback](18-Gnome-Session-Fallback.md) <!-- Uma alternativa à interface Unity -->
+- [Gnome Settings](19-Gnome-Settings.md) <!-- Alterando o volume do computador -->
+- [Gnome Settings](20-Gnome-Settings.md) <!-- Atribuindo atalhos de teclado -->
+- [Gnome Settings](21-Gnome-Settings.md) <!-- Desligando a proteção de tela -->
+- [Gnome Settings](22-Gnome-Settings.md) <!-- Incluindo um atalho personalizado de teclado -->
+- [Google Drive](23-Google-Drive.md) <!-- Acessando arquivos na nuvem -->
+- [Graphviz](24-Graphviz.md) <!-- Desenhando um fluxograma de modo acessível -->
+- [Graphviz](25-Graphviz.md) <!-- Desenhando um organograma de modo acessível -->
+- [GStreamer](26-GStreamer.md) <!-- Gravando áudio da placa de som -->
+- [GTick](27-GTick.md) <!-- Um metrônomo para acompanhar a sua música -->
+- [MEOCloud](28-MEOCloud.md) <!-- Acessando arquivos na nuvem -->
+- [Mount](29-Mount.md) <!-- Trabalhando com pontos de montagem -->
+- [MPlayer](30-MPlayer.md) <!-- Reproduzindo arquivos de multimídia -->
+- [Nautilus](31-Nautilus.md) <!-- Agilizando o acesso a pastas no terminal -->
+- [Nautilus](32-Nautilus.md) <!-- Alterando o painel lateral com Alacarte -->
+- [Nautilus](33-Nautilus.md) <!-- compactando arquivos no formato 7z -->
+- [Nautilus](34-Nautilus.md) <!-- Criando lançadores na Área de Trabalho -->
+- [Nautilus](35-Nautilus.md) <!-- Ocultando arquivos com .hidden -->
+- [Nautilus](36-Nautilus.md) <!-- Utilizando áreas de trabalho múltiplas -->
+- [Nautilus](37-Nautilus.md) <!-- Visualizando arquivos do IPhone -->
+- [Nautilus](38-Nautilus.md) <!-- Trabalhando com ligações simbólicas -->
+- [Orca](39-Orca.md) <!-- Ajustando a leitura de células no Calc -->
+- [Orca](40-Orca.md) <!-- Alternando rapidamente entre idiomas -->
+- [Orca](41-Orca.md) <!-- Navegando no Google Agenda -->
+- [Orca](42-Orca.md) <!-- Utilizando uma versão de desenvolvimento -->
+- [Orca](43-Orca.md) <!-- Utilizando variantes do Espeak -->
+- [PDFToText](44-PDFToText.md) <!-- Convertendo arquivos de PDF para TXT -->
+- [Pidgin](45-Pidgin.md) <!-- Comunicando-se por meio do Google Talk -->
+- [Pidgin](46-Pidgin.md) <!-- comunicando-se por meio do WhatsApp -->
+- [Planner](47-Planner.md) <!-- Gerenciando o cronograma de um projeto -->
+- [Rhythmbox](48-Rhythmbox.md) <!-- Reproduzindo arquivos de multimídia -->
+- [Sound Converter](49-Sound-Converter.md) <!-- Convertendo arquivos de multimídia -->
+- [Synaptic](50-Synaptic.md) <!-- Instalando pacotes pela interface gráfica -->
+- [Tesseract](51-Tesseract.md) <!-- Processando arquivos de imagem com OCR -->
+- [Thunderbird](52-Thunderbird.md) <!-- Lendo notícias por meio de RSS -->
+- [Timidity](53-Timidity.md) <!-- Reproduzindo arquivos no formato mid -->
+- [TXT2Tags](54-TXT2Tags.md) <!-- Criando documentos com formatação automática -->
+- [Ubuntu](55-Ubuntu.md) <!-- Instalando o sistema operacional -->
+- [Wiki2Beamer](56-Wiki2Beamer.md) <!-- Montando apresentações com formatação automática -->
+- [Wine](57-Wine.md) <!-- Instalando o sistema Dosvox -->
+- [YaGTD](58-YaGTD.md) <!-- Gerenciando tarefas pessoais no terminal -->
+- [Youtube-dl](59-Youtube-dl.md) <!-- Baixando arquivos do Youtube -->
+- [Zim](60-Zim.md) <!-- Organizando informações hierárquicas -->
 
-
-<!-- De original enviado por luciano de souza:
-
-... imaginei 60 temas de artigos. Alguém se interessaria em escrever sobre algum deles? 
-
-01. Alias - Criando apelidos para comandos do Shell
-02. Apt-get - Instalando pacotes pela linha de comando
-03. Archlinux - Instalando o sistema operacional
-04. Avconv - Convertendo arquivos de multimídia
-05. BCrypt - Criptografando arquivos e pastas
-06. Brasero – Gravando CDs e DVDs
-07. Diff – Comparando o conteúdo de arquivos e pastas
-08. Emacs -Desvendando os mistérios deste ambiente
-09. Espeakup - Interagindo com o modo texto puro
-10. F123 - Instalando o sistema operacional
-11. Fedora - Instalando o sistema operacional
-12. Firefox - Bloqueando páginas de propaganda com o Ad Block Plus
-13. Firefox - copiando tabelas com Tab2Clipboard
-14. Firefox - Guardando na nuvem os favoritos com XMarks
-15. Firefox – Habilitando o Flash para a reprodução de conteúdos multimídia
-16. GIT - Versionando informações de um projeto
-17. Gnome dictionary – Utilizando dicionário de inglês
-18. Gnome Session Fallback - Uma alternativa à interface Unity
-19. Gnome Settings - Alterando o volume do computador
-20. Gnome Settings - Atribuindo atalhos de teclado
-21. Gnome Settings - Desligando a proteção de tela
-22. Gnome Settings - Incluindo um atalho personalizado de teclado
-23. Google Drive - Acessando arquivos na nuvem
-24. Graphviz - Desenhando um fluxograma de modo acessível
-25. Graphviz - Desenhando um organograma de modo acessível
-26. GStreamer - Gravando áudio da placa de som
-27. GTick - Um metrônomo para acompanhar a sua música
-28. MEOCloud - Acessando arquivos na nuvem
-29. Mount - Trabalhando com pontos de montagem
-30. MPlayer - Reproduzindo arquivos de multimídia
-31. Nautilus - Agilizando o acesso a pastas no terminal
-32. Nautilus - Alterando o painel lateral com Alacarte
-33. Nautilus - compactando arquivos no formato 7z
-34. Nautilus - Criando lançadores na Área de Trabalho
-35. Nautilus - Ocultando arquivos com .hidden
-36. Nautilus - Utilizando áreas de trabalho múltiplas
-37. Nautilus - Visualizando arquivos do IPhone
-38. Nautilus – Trabalhando com ligações simbólicas
-39. Orca - Ajustando a leitura de células no Calc
-40. Orca - Alternando rapidamente entre idiomas
-41. Orca - Navegando no Google Agenda
-42. Orca - Utilizando uma versão de desenvolvimento
-43. Orca - Utilizando variantes do Espeak
-44. PDFToText - Convertendo arquivos de PDF para TXT
-45. Pidgin – Comunicando-se por meio do Google Talk
-46. Pidgin – comunicando-se por meio do WhatsApp
-47. Planner - Gerenciando o cronograma de um projeto
-48. Rhythmbox - Reproduzindo arquivos de multimídia
-49. Sound Converter - Convertendo arquivos de multimídia
-50. Synaptic - Instalando pacotes pela interface gráfica
-51. Tesseract – Processando arquivos de imagem com OCR
-52. Thunderbird - Lendo notícias por meio de RSS
-53. Timidity - Reproduzindo arquivos no formato mid
-54. TXT2Tags - Criando documentos com formatação automática
-55. Ubuntu - Instalando o sistema operacional
-56. Wiki2Beamer - Montando apresentações com formatação automática
-57. Wine - Instalando o sistema Dosvox
-58. YaGTD - Gerenciando tarefas pessoais no terminal
-59. Youtube-dl - Baixando arquivos do Youtube
-60. Zim - Organizando informações hierárquicas
-
--->
