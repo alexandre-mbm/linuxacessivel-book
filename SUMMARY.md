@@ -1,6 +1,6 @@
 # Sumário
 
-- [Capítulo de test](chapter1.md)
+- [Capítulo de teste](chapter1.md)
 
 
 <!-- De original enviado por luciano de souza:
