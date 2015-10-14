@@ -11,41 +11,47 @@
 - [Espeakup](09-Espeakup.md) <!-- Interagindo com o modo texto puro -->
 - [F123](10-F123.md) <!-- Instalando o sistema operacional -->
 - [Fedora](11-Fedora.md) <!-- Instalando o sistema operacional -->
-- [Firefox](12-Firefox.md) <!-- Bloqueando páginas de propaganda com o Ad Block Plus -->
-- [Firefox](13-Firefox.md) <!-- copiando tabelas com Tab2Clipboard -->
-- [Firefox](14-Firefox.md) <!-- Guardando na nuvem os favoritos com XMarks -->
-- [Firefox](15-Firefox.md) <!-- Habilitando o Flash para a reprodução de conteúdos multimídia -->
+- [Firefox](12i-Firefox.md)
+    - [Ad Block Plus](12-Firefox.md) <!-- Bloqueando páginas de propaganda com o Ad Block Plus -->
+    - [Tab2Clipboard](13-Firefox.md) <!-- copiando tabelas com Tab2Clipboard -->
+    - [XMarks](14-Firefox.md) <!-- Guardando na nuvem os favoritos com XMarks -->
+    - [Flash](15-Firefox.md) <!-- Habilitando o Flash para a reprodução de conteúdos multimídia -->
 - [GIT](16-GIT.md) <!-- Versionando informações de um projeto -->
 - [Gnome dictionary](17-Gnome-dictionary.md) <!-- Utilizando dicionário de inglês -->
 - [Gnome Session Fallback](18-Gnome-Session-Fallback.md) <!-- Uma alternativa à interface Unity -->
-- [Gnome Settings](19-Gnome-Settings.md) <!-- Alterando o volume do computador -->
-- [Gnome Settings](20-Gnome-Settings.md) <!-- Atribuindo atalhos de teclado -->
-- [Gnome Settings](21-Gnome-Settings.md) <!-- Desligando a proteção de tela -->
-- [Gnome Settings](22-Gnome-Settings.md) <!-- Incluindo um atalho personalizado de teclado -->
+- [Gnome Settings](19i-Gnome-Settings.md)
+    - [Volume](19-Gnome-Settings.md) <!-- Alterando o volume do computador -->
+    - [Atalhos de Teclado](20-Gnome-Settings.md) <!-- Atribuindo atalhos de teclado -->
+    - [Proteção de Tela](21-Gnome-Settings.md) <!-- Desligando a proteção de tela -->
+    - [Atalhos de Teclado Personalizados](22-Gnome-Settings.md) <!-- Incluindo um atalho personalizado de teclado -->
 - [Google Drive](23-Google-Drive.md) <!-- Acessando arquivos na nuvem -->
-- [Graphviz](24-Graphviz.md) <!-- Desenhando um fluxograma de modo acessível -->
-- [Graphviz](25-Graphviz.md) <!-- Desenhando um organograma de modo acessível -->
+- [Graphviz](24i-Graphviz.md)
+    - [Fluxogramas](24-Graphviz.md) <!-- Desenhando um fluxograma de modo acessível -->
+    - [Organogramas](25-Graphviz.md) <!-- Desenhando um organograma de modo acessível -->
 - [GStreamer](26-GStreamer.md) <!-- Gravando áudio da placa de som -->
 - [GTick](27-GTick.md) <!-- Um metrônomo para acompanhar a sua música -->
 - [MEOCloud](28-MEOCloud.md) <!-- Acessando arquivos na nuvem -->
 - [Mount](29-Mount.md) <!-- Trabalhando com pontos de montagem -->
 - [MPlayer](30-MPlayer.md) <!-- Reproduzindo arquivos de multimídia -->
-- [Nautilus](31-Nautilus.md) <!-- Agilizando o acesso a pastas no terminal -->
-- [Nautilus](32-Nautilus.md) <!-- Alterando o painel lateral com Alacarte -->
-- [Nautilus](33-Nautilus.md) <!-- compactando arquivos no formato 7z -->
-- [Nautilus](34-Nautilus.md) <!-- Criando lançadores na Área de Trabalho -->
-- [Nautilus](35-Nautilus.md) <!-- Ocultando arquivos com .hidden -->
-- [Nautilus](36-Nautilus.md) <!-- Utilizando áreas de trabalho múltiplas -->
-- [Nautilus](37-Nautilus.md) <!-- Visualizando arquivos do IPhone -->
-- [Nautilus](38-Nautilus.md) <!-- Trabalhando com ligações simbólicas -->
-- [Orca](39-Orca.md) <!-- Ajustando a leitura de células no Calc -->
-- [Orca](40-Orca.md) <!-- Alternando rapidamente entre idiomas -->
-- [Orca](41-Orca.md) <!-- Navegando no Google Agenda -->
-- [Orca](42-Orca.md) <!-- Utilizando uma versão de desenvolvimento -->
-- [Orca](43-Orca.md) <!-- Utilizando variantes do Espeak -->
+- [Nautilus](31i-Nautilus.md)
+    - [Abrir no Terminal](31-Nautilus.md) <!-- Agilizando o acesso a pastas no terminal -->
+    - [Alacarte](32-Nautilus.md) <!-- Alterando o painel lateral com Alacarte -->
+    - [7zip](33-Nautilus.md) <!-- Compactando arquivos no formato 7z -->
+    - [Lançadores](34-Nautilus.md) <!-- Criando lançadores na Área de Trabalho -->
+    - [Ocultar com arquivos](35-Nautilus.md) <!-- Ocultando arquivos com .hidden -->
+    - [Áreas de Trabalho](36-Nautilus.md) <!-- Utilizando áreas de trabalho múltiplas -->
+    - [iPhone](37-Nautilus.md) <!-- Visualizando arquivos do IPhone -->
+    - [Links simbólicos](38-Nautilus.md) <!-- Trabalhando com ligações simbólicas -->
+- [Orca](39i-Orca.md)
+    - [Calc](39-Orca.md) <!-- Ajustando a leitura de células no Calc -->
+    - [Idiomas](40-Orca.md) <!-- Alternando rapidamente entre idiomas -->
+    - [Google Agenda](41-Orca.md) <!-- Navegando no Google Agenda -->
+    - [Versão de Desenvolvimento](42-Orca.md) <!-- Utilizando uma versão de desenvolvimento -->
+    - [Espeak](43-Orca.md) <!-- Utilizando variantes do Espeak -->
 - [PDFToText](44-PDFToText.md) <!-- Convertendo arquivos de PDF para TXT -->
-- [Pidgin](45-Pidgin.md) <!-- Comunicando-se por meio do Google Talk -->
-- [Pidgin](46-Pidgin.md) <!-- comunicando-se por meio do WhatsApp -->
+- [Pidgin](45i-Pidgin.md)
+    - [Google Talk](45-Pidgin.md) <!-- Comunicando-se por meio do Google Talk -->
+    - [WhatsApp](46-Pidgin.md) <!-- comunicando-se por meio do WhatsApp -->
 - [Planner](47-Planner.md) <!-- Gerenciando o cronograma de um projeto -->
 - [Rhythmbox](48-Rhythmbox.md) <!-- Reproduzindo arquivos de multimídia -->
 - [Sound Converter](49-Sound-Converter.md) <!-- Convertendo arquivos de multimídia -->
