@@ -66,5 +66,10 @@
 - [YaGTD](58-YaGTD.md) <!-- Gerenciando tarefas pessoais no terminal -->
 - [Youtube-dl](59-Youtube-dl.md) <!-- Baixando arquivos do Youtube -->
 - [Zim](60-Zim.md) <!-- Organizando informações hierárquicas -->
-- [GitHub](61-GitHub.md) <!-- Projetos compartilhados -->
+- [GitHub](61i-GitHub.md) <!-- Projetos compartilhados -->
+    - [Para usuário](61-GitHub.md)
+    - [Para colaborador de projeto](62-GitHub.md)
+    - [Para administrador de projeto](63-GitHub.md)
+    - [Para participante de organização](64-GitHub.md)
+    - [Para gerente de organização](65-GitHub.md)
 
