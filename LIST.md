@@ -66,3 +66,5 @@ Sugerida por Luciano de Souza no grupo virtual Linux Acessível. [Saiba mais...]
 ## Temas adicionados
 
 61. GitHub - Projetos compartilhados
+62. Jogos no Linux
+63. Maneiras de ouvir rádio
