@@ -8,7 +8,7 @@ O comando `alias` possibilita que se crie um apelido para determinado comando. I
 alias dir=ls
 ```
 
-A criação de apelido acima faz com que comandar `dir` e comandar `ls` sejam exatmente a mesmas coisa. A expressão `dir` passa a ser um apelido para o comando `ls`.
+A criação de apelido acima faz com que comandar `dir` e comandar `ls` sejam exatamente a mesma coisa. A expressão `dir` passa a ser um apelido para o comando `ls`.
 
 Um apelido também pode ser usado para simplificar um comando que você sempre passa com opções. Por exemplo, se você gosta de listar arquivos e diretórios em coluna única:
 
@@ -16,4 +16,4 @@ Um apelido também pode ser usado para simplificar um comando que você sempre p
 alias ls=ls -1
 ```
 
-Agora, `ls` sendo apelido para `ls -1`, é dispensável digitar a opção `-1`. Em compensação, seu `ls` será sempre uma listagem de única coluna, obrigatoriamente, por causa que o apelido acaba por substituir o original.
+Agora, `ls` sendo apelido para `ls -1`, é dispensável digitar a opção `-1`. Em compensação, seu `ls` será sempre uma listagem de única coluna, obrigatoriamente, porque o apelido acaba por substituir o original.
