@@ -25,7 +25,7 @@ Para que você não tenha de criar novamente esses apelidos toda vez que uma ses
 Esse arquivo nada mais é do que um shell script que é executado toda vez que uma sessão no terminal é aberta.
 Abra esse arquivo usando qualquer editor de textos e no final dele insira as linhas como se você estivesse digitando no terminal. Salve e pronto, nunca mais você vai perder os seus apelidos.
 Após salvar esse arquivo você precisa executa-lo para que os apelidos sejam criados, o que pode ser feito de duas maneiras:
-- **Feche a sessão corrente e abra novamente.
-- **Execute o seguinte comando no terminal: ```
+- Feche a sessão corrente e abra novamente.
+- Execute o seguinte comando no terminal: ```
 source .bashrc
 ```
