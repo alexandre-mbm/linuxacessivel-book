@@ -1,10 +1,13 @@
 # Sumário
 
+- [Sobre a estrutura deste livro](CONTENT.md)
+    - [Lista original de temas](LIST.md)
+
 - Leitor de Tela
     - [Espeakup](09-Espeakup.md) <!-- Interagindo com o modo texto puro -->
     - [Orca](39i-Orca.md)
-        - [Idiomas](40-Orca.md) <!-- Alternando rapidamente entre idiomas -->
-        - [Testes](42-Orca.md) <!-- Utilizando uma versão de desenvolvimento -->
+        - [Trocar idiomas](40-Orca.md) <!-- Alternando rapidamente entre idiomas -->
+        - [Testar versões](42-Orca.md) <!-- Utilizando uma versão de desenvolvimento -->
         - [Espeak](43-Orca.md) <!-- Utilizando variantes do Espeak -->
 
 - [Sistema Operacional]() <!-- Kernel, Linux, Windows, "distribuição GNU/Linux" -->
@@ -55,7 +58,7 @@
     - [Google Agenda](41-Orca.md) <!-- Navegando no Google Agenda -->
     - [MEOCloud](28-MEOCloud.md) <!-- Acessando arquivos na nuvem -->
 
--Utilitários
+- Utilitários
     - Escritório
         - [Gnome dictionary](17-Gnome-dictionary.md) <!-- Utilizando dicionário de inglês -->
         - [Calc](39-Orca.md) <!-- Ajustando a leitura de células no Calc -->
