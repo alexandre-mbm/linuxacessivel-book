@@ -10,7 +10,7 @@
         - [Testar versões](42-Orca.md) <!-- Utilizando uma versão de desenvolvimento -->
         - [Espeak](43-Orca.md) <!-- Utilizando variantes do Espeak -->
 
-- [Sistema Operacional]() <!-- Kernel, Linux, Windows, "distribuição GNU/Linux" -->
+- [Sistema Operacional](sistema-operacional.md) <!-- Kernel, Linux, Windows, "distribuição GNU/Linux" -->
     - [Archlinux](03-Archlinux.md) <!-- Instalando o sistema operacional -->
     - [Fedora](11-Fedora.md) <!-- Instalando o sistema operacional -->
     - [Ubuntu](55-Ubuntu.md) <!-- Instalando o sistema operacional -->
@@ -18,7 +18,7 @@
     - Wine
         - [Dosvox](57-Wine.md) <!-- Instalando o sistema Dosvox -->
 
-- Gerenciador de Janelas
+- [Gerenciador de Janelas](gerenciador-de-janelas.md)
     - Gnome
         - [Gnome Session Fallback](18-Gnome-Session-Fallback.md) <!-- Uma alternativa à interface Unity -->
         - [Gnome Settings](19i-Gnome-Settings.md)
@@ -63,7 +63,7 @@
         - [Gnome dictionary](17-Gnome-dictionary.md) <!-- Utilizando dicionário de inglês -->
         - [Calc](39-Orca.md) <!-- Ajustando a leitura de células no Calc -->
         - [Wiki2Beamer](56-Wiki2Beamer.md) <!-- Montando apresentações com formatação automática -->
-    - Terminal
+    - [Terminal](terminal.md)
         - [Alias](01-Alias.md) <!-- Criando apelidos para comandos do Shell -->
         - [YaGTD](58-YaGTD.md) <!-- Gerenciando tarefas pessoais no terminal -->
         - [Youtube-dl](59-Youtube-dl.md) <!-- Baixando arquivos do Youtube -->
