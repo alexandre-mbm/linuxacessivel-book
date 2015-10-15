@@ -1,5 +1,7 @@
 # Lista original de temas
 
+Sugerida por Luciano de Souza no grupo virtual Linux Acessível. [Saiba mais...](CONTENT.md)
+
 01. [Alias - Criando apelidos para comandos do Shell](01-Alias.md)
 02. Apt-get - Instalando pacotes pela linha de comando
 03. Archlinux - Instalando o sistema operacional
