@@ -62,7 +62,7 @@ Sugerida por Luciano de Souza no grupo virtual Linux Acessível. [Saiba mais...]
 58. YaGTD - Gerenciando tarefas pessoais no terminal
 59. Youtube-dl - Baixando arquivos do Youtube
 60. Zim - Organizando informações hierárquicas
-61. GitHub - Projetos compartilhados
+61. [GitHub - Projetos compartilhados](61i-GitHub.md)
 62. Jogos no Linux
 63. Maneiras de ouvir rádio
 64. [Markdown - Sintaxe básica para gitbooks](64-Markdown.md)

@@ -4,7 +4,7 @@ Segue roteiro de curso.
 
 ## Para o usuário
 
-- Criação de conta e perfil
+- [Criação de conta](61-GitHub.md) e perfil
 - Criação de projeto
 - Navegação por perfis
 - RESET de senha
@@ -15,7 +15,7 @@ Segue roteiro de curso.
 - Página inicial e README
 - Navegação de arquivos
 - Leitura de código fonte
-- Leitura de documento
+- [Leitura de documento](62-GitHub.md#leitura-de-documento)
 - Buscas de issue
 - Criação de issue
 - Participação em issue
