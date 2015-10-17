@@ -85,6 +85,7 @@
     - [Diff](07-Diff.md) <!-- Comparando o conteúdo de arquivos e pastas -->
     - [Zim](60-Zim.md) <!-- Organizando informações hierárquicas -->
     - [TXT2Tags](54-TXT2Tags.md) <!-- Criando documentos com formatação automática -->
+    - [Markdown](64-Markdown.md) <!-- Markdown - Sintaxe básica para gitbooks -->
 
 - Programação
     - [Planner](47-Planner.md) <!-- Gerenciando o cronograma de um projeto -->
