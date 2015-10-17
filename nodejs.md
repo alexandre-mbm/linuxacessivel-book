@@ -12,10 +12,14 @@ $ sudo pacman -S nodejs
 
 ## npm
 
-Para instalar o pacote de um `programa-x` NodeJS para todo o sistema, fazemos:
+Para instalar o pacote de NodeJS de um PROGRAMA, valendo para todo o sistema, fazemos:
 
 ```console
-$ sudo npm install programa-x -g
+$ sudo npm install -g PROGRAMA
 ```
+
+Nesse caso é muito importante usar a opção `-g`. Senão o NodeJS instalará tudo, toda uma árvore de pacotes (com dependências), no diretório atual.
+
+É normal a execução de comandos do tipo `npm install` ser demorada. Especialmente se acontece para instalação em diretório atual limpo, localmente, sem a opçãom `-g`. Pois antes dos downloads e das instalações propriamente ditas, o comando calcula todas as dependências.
 
 [framework]: http://pt.wikipedia.org/wiki/Framework
