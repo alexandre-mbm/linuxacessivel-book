@@ -9,6 +9,7 @@
         - [Trocar idiomas](40-Orca.md) <!-- Alternando rapidamente entre idiomas -->
         - [Testar versões](42-Orca.md) <!-- Utilizando uma versão de desenvolvimento -->
         - [Espeak](43-Orca.md) <!-- Utilizando variantes do Espeak -->
+        - [Liane TTS](65-LianeTTS.md) <!-- Instalar a voz no Orca -->
 
 - [Sistema Operacional](sistema-operacional.md) <!-- Kernel, Linux, Windows, "distribuição GNU/Linux" -->
     - [Archlinux](03-Archlinux.md) <!-- Instalando o sistema operacional -->
