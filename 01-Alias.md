@@ -1,8 +1,6 @@
+<!-- O que é ensinado a seguir talvez precise ser adaptado para ensinar acessibilidade. Por enquanto esta página somente existe para experimentação da navegação em gitbooks. -->
+
 # `alias` ‒ Criando apelidos para comandos do Shell
-
-_Atenção! O que é ensinado a seguir talvez precise ser adaptado para ensinar acessibilidade. Por enquanto esta página somente existe para experimentação da navegação em gitbooks._
-
----
 
 O comando `alias` possibilita que se crie um apelido para determinado comando. Isso pode ser usado para lidar com um nome de comando totalmente diferente do original, por questões de costume. Por exemplo:
 
