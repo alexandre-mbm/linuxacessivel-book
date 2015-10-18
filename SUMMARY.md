@@ -2,6 +2,7 @@
 
 - [Sobre a estrutura deste livro](CONTENT.md)
     - [Lista original de temas](LIST.md)
+    - [Faça parte. Colabore!](AUTHORING.md)
 
 - Leitor de Tela
     - [Espeakup](09-Espeakup.md) <!-- Interagindo com o modo texto puro -->
