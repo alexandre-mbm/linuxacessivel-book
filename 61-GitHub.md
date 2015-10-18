@@ -47,4 +47,44 @@ Quando você conseguir confirmar seu endereço de e-mail por clique em link de c
 
 Lembre-se de que, no Firefox, `F6` nos permite alterar entre a barra de endereços e corpor da página.
 
+<!-- TODO: seção "## Login" -->
+
+## Acessando o próprio perfil
+
+Todo perfil de usuário pode ser acessado por meio de uma URL na forma `github.com/NOMEDEUSUARIO`. Mas, para dificultar um pouco e termos a oportunidade de ir aprendendo navegação estrutural invisual de GitHub, vamos ao seu próprio perfil navegando os menus do site. Pressuposto que você já está logado.
+
+1. **Acesse [github.com]**
+1. Pressione `TAB` uma vez, para pular para o conteúdo da página — "_Skip to content_".
+1. Pressione `L` duas vezes, para ir à segunda lista. A primeira lista começa com o link "_Pull requests_". A segunda lista, com um link que é alguma coisa sobre "_notifications_" (notificações). Essas listas são menus superiores horizontais.
+1. Pressione `TAB` sucessivamente para ir ao terceiro item da lista (menu). Será o link "_View profile and more_" — em português: **"visualizar perfil e mais"**.
+1. Pressione `ENTER` e abrir-se-á um submenu vertical flutuante.
+1. Use `SETA-PARA-BAIXO` sucessivamente até encontrar o link "_Your profile_", que dá acesso ao **seu perfil**.
+1. Clique o link com `ENTER` e a página de seu perfil será aberta.
+
+## Conhecendo um perfil de usuário
+
+- **Nome do usuário**
+	- Se você quer rever o nome de usuário do perfil que está aberto, simplesmente tecle `1`, pois o nome será o único cabeçalho de nível 1 nesta página de perfil.
+- **Cidade, e-mail e data de inscrição**
+	- Estando no ponto inicial da página, tecle `L` três vezes para ir até a terceira lilsta. Navega-a com as setas verticais e conheça o local da pessoa (se ela declarou), o endereço de e-mail dela (se ela declarou), ou pelo menos a data em que esse usuário cadastrou-se no GItHub.
+		- A informação da data estará em inglês. Algo como "_Joined on 21 Jun 2015_", que significa: "Entrou em 21 de junho de 2015"
+- **Seguidores, projetos favoritos e pessoas seguidas**
+	- Todo usuário de GitHub pode seguir outros usuários, favoritar projetos (marcado-os com estrelas), e ser seguido por outros.
+		- A finalidade de favoritar projetos é apenas ter e compartihar com todos uma lista de projetos que por algum motivo um dia lhe interessaram.
+		- Pessoas seguem umas às outras para dizer a todos que ambas tem afinidades nessa rede social que é o GitHub, de compartilhamento de projetos de código aberto. E também para serem notificadas (até por e-mail) de algumas das ações de quem elas seguem.
+    - O perfil do usuário mostra um contador de seguidores, um contador de favoritos, e um contador de seguidos; nessa ordem. Para acessar esses contadores, percorra toda a lista anterior, aquela que teria cidade, e-mail e data de inscrição, e prossiga apertando `SETA-PARA-BAIXO`. Serão 6 items a percorrer como se você estivesse numa lista de links:
+        - Item 1 é o contador de seguidores
+        - Item 2 é o rótulo em inglês que confirma isso: "_Followers_"
+        - Item 3 é o contador de projetos favoritos
+        - Item 4 é o rótulo em inglês que confirma isso: "_Starred_" (algo como: "estrelado")
+        - Item 5 é o contador de usuário seguidos por este usuário que você está conhecendo
+        - Item 6 é o rótulo em inglês que confirma isso: "_Following_"
+    - Os 3 contadores e os 3 rótulos são links que levam às respectivas listas de: seguidores; favoritos e pessoas seguidas.
+<!-- TODO: melhor estratégia para navegar os contadores -->
+<!-- TODO: seguir usuário -->
+<!-- TODO: bloquear usuário ou reportar abuso -->
+<!-- TODO: navegação básica em repositórios, com opção de favoritar -->
+<!-- TODO: busca por repositórios -->
+<!-- TODO: assinatura de feed de atividades do usuário -->
+
 [github.com]: http://github.com
