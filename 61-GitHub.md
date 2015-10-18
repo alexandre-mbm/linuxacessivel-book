@@ -98,7 +98,10 @@ Após passar os contadores<!-- TODO: linkar quando passar a existir (acima) --> 
 
 Na aba de página que você acabou de abrir, nomes de projetos/repositórios estarão como cabeçalhos de nível 3 que também são links. Após cada um deles haverá descrição do projeto (quando configurado pelo dono) e data de criação do projeto abreviada em inglês, ambos como parágrafos que podem ser visitados com a tecla `p`.
 
-<!-- TODO: busca por repositórios -->
+### Buscar repositórios de um usuário
+
+Estando com a aba de página "_Repositories_" (repositórios) aberta, o campo de busca por repositórios no perfil sendo visitado é o segundo campo de formulário encontrado na página. Quando o conteúdo da página começa a ser explorado por `TAB`, esses campos de digitação tem prioridade. A passagem por eles é no modo de foco. Sendo assim, comece ou recomece a navegação da página, pressione `TAB` duas vezes, e você estará no campo de busca. Então é só digitar sua chave de busca e apertar `ENTER`. Você será levado à página de busca<!-- TODO: explicar a página de busca em nova seção --> com a listagem dos resultados.
+
 <!-- TODO: assinatura de feed de atividades do usuário -->
 
 <!-- pull requests e issues do meu usuário -->
