@@ -8,7 +8,7 @@ Linux é o núcleo (kernel) de muitos sistemas operacionais famosos, dentre eles
 
 Esses sistemas são as chamadas "distribuições GNU/Linux", porque neles o núcleo é usado com muito software que provém do Projeto GNU. De fato, este projeto influencia demais o desenvolvimento de software para ser usado com Linux.
 
-As distribuições diferenciam-se pela forma que suas comunidades mantenedoras pensam e atuam, pelo padrão de estrutura de diretórios e pelo [sistema de pacotes](gerenciamento-de-pacotes.md) que adotam. Tudo isso e mais um pouco constitui a "filosofia" da distro.
+As distribuições diferenciam-se pela forma que suas comunidades mantenedoras pensam e atuam, pelo padrão de estrutura de diretórios e pelo sistema de pacotes<!-- TODO: hiperligar artigo, quando ele existir --> que adotam. Tudo isso e mais um pouco constitui a "filosofia" da distro.
 
 ## O que é Windows?
 
