@@ -72,15 +72,14 @@ Todo perfil de usuário pode ser acessado por meio de uma URL na forma `github.c
 	- Todo usuário de GitHub pode seguir outros usuários, favoritar projetos (marcado-os com estrelas), e ser seguido por outros.
 		- A finalidade de favoritar projetos é apenas ter e compartihar com todos uma lista de projetos que por algum motivo um dia lhe interessaram.
 		- Pessoas seguem umas às outras para dizer a todos que ambas tem afinidades nessa rede social que é o GitHub, de compartilhamento de projetos de código aberto. E também para serem notificadas (até por e-mail) de algumas das ações de quem elas seguem.
-    - O perfil do usuário mostra um contador de seguidores, um contador de favoritos, e um contador de seguidos; nessa ordem. Para acessar esses contadores, percorra toda a lista anterior, aquela que teria cidade, e-mail e data de inscrição, e prossiga apertando `SETA-PARA-BAIXO`. Serão 6 items a percorrer como se você estivesse numa lista de links:
-        - Item 1 é o contador de seguidores
-        - Item 2 é o rótulo em inglês que confirma isso: "_Followers_"
-        - Item 3 é o contador de projetos favoritos
-        - Item 4 é o rótulo em inglês que confirma isso: "_Starred_" (algo como: "estrelado")
-        - Item 5 é o contador de usuário seguidos por este usuário que você está conhecendo
-        - Item 6 é o rótulo em inglês que confirma isso: "_Following_"
-    - Os 3 contadores e os 3 rótulos são links que levam às respectivas listas de: seguidores; favoritos e pessoas seguidas.
-<!-- TODO: melhor estratégia para navegar os contadores -->
+    - O perfil do usuário mostra um contador de seguidores, um contador de favoritos, e um contador de pessoas seguidas; nessa ordem. Para acessar esses contadores, percorra toda a lista anterior, aquela que teria cidade, e-mail e data de inscrição, e prossiga apertando `TAB` após a data. Serão 3 links para 3 respectivas páginas de listagem. Cada um está associado a um contador. Nos exemplos de leitura a seguir, um \* (asterisco) representa o número do contador. No real, as expressões estão em inglês e sem as áspas.
+        - O primeiro link é o contador de seguidores
+            - Leitura: "\* _Followers_ link ponto \* link"
+        - O segundo link é o contador de projetos favoritos
+            - Leitura: "\* _Starred_ link ponto \* link"
+        - O terceiro link é o contador de usuários seguidos por este usuário que você está conhecendo
+            - Leitura: "\* _Following_ link ponto \* link"
+
 <!-- TODO: seguir usuário -->
 <!-- TODO: bloquear usuário ou reportar abuso -->
 <!-- TODO: navegação básica em repositórios, com opção de favoritar -->
