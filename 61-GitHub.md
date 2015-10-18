@@ -88,8 +88,19 @@ Todo perfil de usuário pode ser acessado por meio de uma URL na forma `github.c
 	3. Ou...
 	Se você pressionou `TAB` duas vezes dentro do menu, estará em cima do botão de apertar "_Report abuse_", que serve para denunciar o usuário ao pessoal do GitHub. Por razões óbvias, não foi possível testarmos esse botão. Descubra sozinho como é a ação dele ou [envie a Alexandre Magno um e-mail candidatando-se a ser o usuário cobaia a ser denunciado durante um teste](mailto:alexandre.mbm@gmail.com).
 
-<!-- TODO: navegação básica em repositórios, com opção de favoritar -->
+<!-- TODO: melhor estratégia para contadores, a partir de cabeçalho nível 1 -->
+
+<!-- TODO: estrutura a seção com subníveis -->
+
+### Navegar a lista de repositórios de um usuário
+
+Após passar os contadores<!-- TODO: linkar quando passar a existir (acima) --> pressionando `TAB` três vezes, passar o botão de seguir<!-- TODO: linkar quando passar a existir (acima) --> pressionando `TAB` uma vez, passar o menu de bloqueio ou denúcia<!-- TODO: linkar quando passar a existir (acima) --> pressionando `TAB` mais uma vez, e finalmente a aba de página "_Contributions_" (contribuições), a qual simplesmente está na ordem, prossiga com mais um`TAB` até a aba de página "_Repositories_" (repositórios). Então pressione `ENTER` e essa aba de página será aberta.
+
+Na aba de página que você acabou de abrir, nomes de projetos/repositórios estarão como cabeçalhos de nível 3 que também são links. Após cada um deles haverá descrição do projeto (quando configurado pelo dono) e data de criação do projeto abreviada em inglês, ambos como parágrafos que podem ser visitados com a tecla `p`.
+
 <!-- TODO: busca por repositórios -->
 <!-- TODO: assinatura de feed de atividades do usuário -->
+
+<!-- pull requests e issues do meu usuário -->
 
 [github.com]: http://github.com
