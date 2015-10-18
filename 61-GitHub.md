@@ -82,8 +82,12 @@ Todo perfil de usuário pode ser acessado por meio de uma URL na forma `github.c
 - **Para seguir ou não seguir um usuário...**
     1. Chegue aos contadores como ensinado acima e ultrapasse-os com mais um `TAB`
     2. Você estará em cima do botão de apertar que ou chama-se "_Follow_" (seguir) ou chama-se "_Unfollow_" (deixar de seguir). Basta apertar `ENTER` para alternar esse valor e com isso seguir ou deixar de seguir o usuário em questão.
+- **Você quer bloquear este usuário? Ou denunciá-lo?**
+	1. Apenas pressione `TAB` mais uma vez e você estará noutro botão de apertar. Este é um menu. Pressione `ENTER`
+	2. Pressione `TAB` uma vez para chegar ao item de menu para bloquear ou desbloquear o usuário. Se o texto desse botão estiver sendo "_Block user_", apertá-lo com `ENTER` bloqueará o usuário. Se o texto desse botão estiver sendo "_Unblock user_", apertá-lo desbloqueará o usuário. A ação recarrega a página.
+	3. Ou...
+	Se você pressionou `TAB` duas vezes dentro do menu, estará em cima do botão de apertar "_Report abuse_", que serve para denunciar o usuário ao pessoal do GitHub. Por razões óbvias, não foi possível testarmos esse botão. Descubra sozinho como é a ação dele ou [envie a Alexandre Magno um e-mail candidatando-se a ser o usuário cobaia a ser denunciado durante um teste](mailto:alexandre.mbm@gmail.com).
 
-<!-- TODO: bloquear usuário ou reportar abuso -->
 <!-- TODO: navegação básica em repositórios, com opção de favoritar -->
 <!-- TODO: busca por repositórios -->
 <!-- TODO: assinatura de feed de atividades do usuário -->
