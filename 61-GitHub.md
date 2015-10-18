@@ -79,8 +79,10 @@ Todo perfil de usuário pode ser acessado por meio de uma URL na forma `github.c
             - Leitura: "\* _Starred_ link ponto \* link"
         - O terceiro link é o contador de usuários seguidos por este usuário que você está conhecendo
             - Leitura: "\* _Following_ link ponto \* link"
+- **Para seguir ou não seguir um usuário...**
+    1. Chegue aos contadores como ensinado acima e ultrapasse-os com mais um `TAB`
+    2. Você estará em cima do botão de apertar que ou chama-se "_Follow_" (seguir) ou chama-se "_Unfollow_" (deixar de seguir). Basta apertar `ENTER` para alternar esse valor e com isso seguir ou deixar de seguir o usuário em questão.
 
-<!-- TODO: seguir usuário -->
 <!-- TODO: bloquear usuário ou reportar abuso -->
 <!-- TODO: navegação básica em repositórios, com opção de favoritar -->
 <!-- TODO: busca por repositórios -->
