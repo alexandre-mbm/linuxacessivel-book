@@ -8,7 +8,7 @@ Em breve o próprio livro poderá discursar sobre as várias opções de licenç
 
 São coautores nesta obra:
 
-- [Alexandre Magno Brito de Medeiros]()\*
+- [Alexandre Magno Brito de Medeiros](mailto:alexandre.mbm@gmail.com)\*
 - José Vilmar Estácio de Souza
 - Lucas Antonio
 - Luciano de Souza
@@ -26,12 +26,11 @@ Reunir artigos, tutoriais, dicas, mini-cursos, cursos. Tudo que possa acrescenta
 
 ## Decidi. Quero colaborar! Como faz?
 
-**Opção 1** ‒ Você pode usar Git e GitHub! Solicite inclusão no [time], para ter permissão de _push_. Depois é só começar a escrever e a submeter seus arquivos Markdown. Se você ainda não sabe como fazer essas coisas, pode partir para a segunda (tradicional), enquanto os autores desse gitbook não dão um jeito de transmitir a você todo o conhecimento necessário.
+**Opção 1** ‒ Você pode usar Git e GitHub! Solicite inclusão no time, para ter permissão de _push_. Depois é só começar a escrever e a submeter seus arquivos Markdown. Se você ainda não sabe como fazer essas coisas, pode partir para a segunda (tradicional), enquanto os autores desse gitbook não dão um jeito de transmitir a você todo o conhecimento necessário.
 
 **Opção 2** ‒ Você pode enviar seus textos — usando qualquer formato de arquivo de texto ou documento, ou o próprio corpo do e-mail — para qualquer autor que na [lista de coautores acima](#lista-de-colaboradores) tenha o nome sinalizado oom um asterisco.
 
 [Introdução]: README.md
 [histórico de revisões]: https://github.com/alexandre-mbm/linuxacessivel-book/commits/master
 [repositório git]: https://github.com/alexandre-mbm/linuxacessivel-book
-[time]: //
-[linuxacessivel.org]: http://
+[linuxacessivel.org]: http://www.linuxacessivel.org
