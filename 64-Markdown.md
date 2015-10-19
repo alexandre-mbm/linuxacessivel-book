@@ -31,7 +31,7 @@ Abre-se com `**` dois asteriscos colados ao conteúdo marcado. E fecha-se com `*
 
 ### Itálico
 
-Aplicável a: linha, expressão ou palavra. Não deve haver quebra de linha dentro de uma marcação de negrito.
+Aplicável a: linha, expressão ou palavra. Não deve haver quebra de linha dentro de uma marcação de itálico.
 
 Abre-se com `_` um _underscore_ colado ao conteúdo marcado. E fecha-se com `_` um _underscore_ colado ao conteúdo marcado.
 
@@ -42,7 +42,7 @@ Abre-se com `_` um _underscore_ colado ao conteúdo marcado. E fecha-se com `_` 
 
 ### Hiperligação
 
-Aplicável a: linha, expressão ou palavra. Não deve haver quebra de linha dentro de uma marcação de negrito.
+Aplicável a: linha, expressão ou palavra. Não deve haver quebra de linha dentro de uma marcação de hiperligação.
 
 A marcação de uma hiperligação tem duas partes. A primeira parte é a DESCRIÇÃO do alvo, e a segunda parte é o ALVO propriamente dito.
 
