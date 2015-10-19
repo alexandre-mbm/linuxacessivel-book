@@ -1,6 +1,6 @@
 # Tornando-se usuário do GitHub
 
-Este breve manual de usuário invisual para GitHub pressupõe conhecimento básico de Git e prática em navegação estrutual HTML.
+Este breve manual de usuário invisual para GitHub pressupõe conhecimento básico de Git e prática em navegação estrutural HTML.
 
 Em caso de dúvidas, por favor escreva a [Alexandre Magno](mailto:alexandre.mbm@gmail.com). Ele buscará responder a você por e-mail particular e possivelmente corrigirá ou aperfeiçoará o manual.
 
