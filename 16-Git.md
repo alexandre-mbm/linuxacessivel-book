@@ -1,6 +1,53 @@
 # Git
 
 O objetivo deste documento é fornecer aos leitores informações necessárias para uso inicial do git. Para melhor compreensão do git, alguns conceitos precisam ser entendidos.
+<!-- START doctoc generated TOC please keep comment here to allow auto update --><!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+- [O que é um sistema controlador de versões?](#o-que-%C3%A9-um-sistema-controlador-de-vers%C3%B5es)
+- [Tipos de controlador de versões](#tipos-de-controlador-de-vers%C3%B5es)
+- [Configuração](#configura%C3%A7%C3%A3o)
+  - [Instalação em Windows](#instala%C3%A7%C3%A3o-em-windows)
+  - [Instalação em Mac](#instala%C3%A7%C3%A3o-em-mac)
+  - [Instalação em GNU/Linux](#instala%C3%A7%C3%A3o-em-gnulinux)
+  - [Compilar?](#compilar)
+  - [Versão do git](#vers%C3%A3o-do-git)
+  - [Identidade do usuário](#identidade-do-usu%C3%A1rio)
+- [Usando o básico](#usando-o-b%C3%A1sico)
+  - [Clone de repositório local](#clone-de-reposit%C3%B3rio-local)
+  - [Gravando alterações](#gravando-altera%C3%A7%C3%B5es)
+    - [Exemplo 1 ‒ começar a versionar](#exemplo-1-%E2%80%92-come%C3%A7ar-a-versionar)
+      - [O comando `git status`](#o-comando-git-status)
+      - [O comando `git add`](#o-comando-git-add)
+      - [O comando `git commit`](#o-comando-git-commit)
+      - [O comando `git status` após o commit](#o-comando-git-status-ap%C3%B3s-o-commit)
+    - [Exemplo 2 ‒ realizar alterações, adicionano versões](#exemplo-2-%E2%80%92-realizar-altera%C3%A7%C3%B5es-adicionano-vers%C3%B5es)
+      - [O comando `git status` para saber o que será gravado](#o-comando-git-status-para-saber-o-que-ser%C3%A1-gravado)
+      - [O comando `git status` ainda, para saber o que NÃO será gravado](#o-comando-git-status-ainda-para-saber-o-que-n%C3%A3o-ser%C3%A1-gravado)
+      - [O comando `git commit -a` fazendo "add" geral de alterações](#o-comando-git-commit--a-fazendo-add-geral-de-altera%C3%A7%C3%B5es)
+  - [Repositório local _vs._ remoto](#reposit%C3%B3rio-local-_vs_-remoto)
+    - [Exemplo 3 ‒ sobre gerenciar as linhas de trabalho](#exemplo-3-%E2%80%92-sobre-gerenciar-as-linhas-de-trabalho)
+      - [O comando `git log` mostra o histórico de commits](#o-comando-git-log-mostra-o-hist%C3%B3rico-de-commits)
+      - [Lembrem-se: cada autor é identificado!](#lembrem-se-cada-autor-%C3%A9-identificado)
+      - [O comando `git log` nos é mais útil gravado em arquivo](#o-comando-git-log-nos-%C3%A9-mais-%C3%BAtil-gravado-em-arquivo)
+      - [O comando `git log` com menos verbosidade](#o-comando-git-log-com-menos-verbosidade)
+      - [O comando `git log` incluindo "diff"](#o-comando-git-log-incluindo-diff)
+  - [Criando repositório a partir de um já existente](#criando-reposit%C3%B3rio-a-partir-de-um-j%C3%A1-existente)
+    - [Exemplo 4 ‒ clone de repositório local](#exemplo-4-%E2%80%92-clone-de-reposit%C3%B3rio-local)
+    - [Exemplo 5 ‒ clone de repositório remoto](#exemplo-5-%E2%80%92-clone-de-reposit%C3%B3rio-remoto)
+    - [Exemplo 6 ‒ sincronia entre repositórios](#exemplo-6-%E2%80%92-sincronia-entre-reposit%C3%B3rios)
+      - [O comando `git log` formatado para a inspeção dos históricos](#o-comando-git-log-formatado-para-a-inspe%C3%A7%C3%A3o-dos-hist%C3%B3ricos)
+      - [O comando `git push` para "empurrar" commit para histórico de destino](#o-comando-git-push-para-empurrar-commit-para-hist%C3%B3rico-de-destino)
+      - [O comando `git pull` para "puxar" commit para histórico de destino](#o-comando-git-pull-para-puxar-commit-para-hist%C3%B3rico-de-destino)
+      - [O comando `git log` para confirmar que a sincronia está feita](#o-comando-git-log-para-confirmar-que-a-sincronia-est%C3%A1-feita)
+- [Utilizando branches](#utilizando-branches)
+  - [O que é um branch?](#o-que-%C3%A9-um-branch)
+  - [Listando e criando branches](#listando-e-criando-branches)
+  - [Alternar entre branches](#alternar-entre-branches)
+    - [Usar o branch, adicionando commits](#usar-o-branch-adicionando-commits)
+    - [Visualizar histórico de branch](#visualizar-hist%C3%B3rico-de-branch)
+    - [Fazer "checkouts" e comparar históricos de branches](#fazer-checkouts-e-comparar-hist%C3%B3ricos-de-branches)
+    - [Resumo](#resumo)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## O que é um sistema controlador de versões?
 
@@ -86,7 +133,7 @@ user.email=vilmar@informal.com.br
 
 A opção `--global` indica que todos os repositórios estarão configurados para o mesmo nome de usuário e o mesmo e-mail. Caso você queira ou precise configurar um e-mail e/ou nome de usuário diferente para algum de seus repositórios, você pode fazer um `cd` para a pasta do repositório, e executar os comandos de configuração sem a opção `--global`.
 
-## Uso
+## Usando o básico
 
 Agora que já temos o git instalado e configurado, está na hora de criar o nosso primeiro repositório e colocar nele alguns arquivos.
 
@@ -125,7 +172,7 @@ A segunda área é chamada de _index_ e contém uma fotografia de todos os arqui
 
 A terceira é a área que guarda os commits feitos no repositório.
 
-#### Exemplo 1 ‒ começa a versionar
+#### Exemplo 1 ‒ começar a versionar
 
 Vamos a um exemplo prático utilizando o repositório criado anteriormente.  Lembrando que os comandos devem ser executados no prompt de comandos.
 
@@ -362,7 +409,7 @@ Um outro ponto fundamental é que você não misture as modificações. Supondo 
 
 Evite, se possível, colocar as duas correções em um único commit.
 
-Se você não está exatamente corrigindo erros mas, invés disso, adicionado coisa, melhorando, tente trabalhar cada assunto em branches (ramos) separados. Nós ainda veremos o que são branches.<!-- TODO: escrever sobre branch -->
+Se você não está exatamente corrigindo erros mas, invés disso, adicionado coisa, melhorando, tente trabalhar cada assunto em branches (ramos) separados. [Nós ainda aprenderemos sobre branches](#utilizando-branches).
 
 ##### O comando `git log` mostra o histórico de commits
 
@@ -371,22 +418,22 @@ O comando que nos mostra quem alterou e a documentação das alterações, é o 
 ```console
 $ git log
 
-commit 6f2d25013af746c5bc062b29e4883ff034c29e6c 
-Author: José Vilmar Estácio de Souza <vilmar@informal.com.br> 
-Date:   Sat Jul 28 21:09:41 2012 -0300 
+commit 6f2d25013af746c5bc062b29e4883ff034c29e6c
+Author: José Vilmar Estácio de Souza <vilmar@informal.com.br>
+Date:   Sat Jul 28 21:09:41 2012 -0300
 
-    alterações no arquivo a.txt e b.txt 
+    alterações no arquivo a.txt e b.txt
 
-commit bc75312a17b9c726435740f4aa493017601491db 
-Author: José Vilmar Estácio de Souza <vilmar@informal.com.br> 
-Date:   Sat Jul 28 19:15:26 2012 -0300 
+commit bc75312a17b9c726435740f4aa493017601491db
+Author: José Vilmar Estácio de Souza <vilmar@informal.com.br>
+Date:   Sat Jul 28 19:15:26 2012 -0300
 
-    primeiro commit 
+    primeiro commit
 ```
 
 Olhando para essa resposta identificamos que dois commits foram feitos. Conseguimos identificar também o autor dos commits. Identificamos ainda as datas em que os commits foram feitos e um texto que descreve a natureza das alterações. Podemos observar também que cada commit possui um identificador, que é formado por 40 digitos hexa-decimais, algarismos de 0 a 9 e letras de A a F.
 
-##### Cada autor é identificado!
+##### Lembrem-se: cada autor é identificado!
 
 Uma pergunta que pode estar passando pela cabeça de quem está lendo esse texto é a seguinte:
 
@@ -399,7 +446,7 @@ git config --global user.name "José Vilmar Estácio de Souza"
 git config --global user.email "vilmar@informal.com.br"
 ```
 
-Lembram-se desses comandos?
+[Lembram-se desses comandos?](#identidade-do-usu%C3%A1rio)
 
 ##### O comando `git log` nos é mais útil gravado em arquivo
 
@@ -432,59 +479,59 @@ Vou alterar esse arquivo colocando um "." no final da primeira linha e acrescent
 ```console
 $git log -p -1
 
-commit e537dc86b66f7ab267597f043ddbb4e0d2c0e0b8 
-Author: José Vilmar Estácio de Souza <vilmar@informal.com.br> 
-Date:   Sun Jul 29 10:03:55 2012 -0300 
+commit e537dc86b66f7ab267597f043ddbb4e0d2c0e0b8
+Author: José Vilmar Estácio de Souza <vilmar@informal.com.br>
+Date:   Sun Jul 29 10:03:55 2012 -0300
 
-    alteracoes feitas para demonstrar o comando git log com a opcao -p 
+    alteracoes feitas para demonstrar o comando git log com a opcao -p
 
-diff --git a/a.txt b/a.txt 
-index 76b34f2..e459484 100644 
---- a/a.txt 
-+++ b/a.txt 
-@@ -1,2 +1,3 @@ 
--linha 1 
-+linha 1. 
-+linha 2 
+diff --git a/a.txt b/a.txt
+index 76b34f2..e459484 100644
+--- a/a.txt
++++ b/a.txt
+@@ -1,2 +1,3 @@
+-linha 1
++linha 1.
++linha 2
 ```
 
 O que temos de novo nessa resposta está a partir das seguintes linhas:
 
 ```diff
-diff --git a/a.txt b/a.txt 
-index 76b34f2..e459484 100644 
---- a/a.txt 
-+++ b/a.txt 
-@@ -1,2 +1,3 @@ 
--linha 1 
-+linha 1. 
-+linha 2 
+diff --git a/a.txt b/a.txt
+index 76b34f2..e459484 100644
+--- a/a.txt
++++ b/a.txt
+@@ -1,2 +1,3 @@
+-linha 1
++linha 1.
++linha 2
 ```
 
 Serão mostradas as diferenças introduzidas no último commit, em relação ao anterior.
 
 ```diff
--linha 1 
+-linha 1
 ```
 Informa que essa linha foi removida.
 
 ```diff
-+linha 1. 
++linha 1.
 ```
 Informa que essa linha foi incluida.
 
 ```diff
-+linha 2 
++linha 2
 ```
 Informa que essa linha foi incluida.
 
-#### Criando repositório a partir de um já existente
+### Criando repositório a partir de um já existente
 
 Até agora aprendemos a criar um repositório a partir de uma pasta existente na nossa máquina local, usando o comando `git init`.
 
 A outra forma de se criar um repositório é fazer um clone de um repositório já existente, não importando se o repositório já existente está na máquina local do usuário ou em uma outra máquina qualquer. O comando que utilizaremos para tal é o `git clone`.
 
-#### Exemplo 5 ‒ clone de repositório local
+#### Exemplo 4 ‒ clone de repositório local
 
 Para começar, vamos fazer um clone do repositório `repo1` criado previamente.
 
@@ -504,7 +551,7 @@ done.
 
 Dentro da pasta `clone` deve ser criada uma pasta chamada `repo1`, e acredite, é uma cópia do repositório `repo1` criado anteriormente. Para confirmar, faça um `cd` para a pasta `repo1` que está dentro da pasta `clone` e execute o comando `git log`. Depois faça um `cd` para a pasta `repo1` criada anteriormente e também execute o comando `git log`. Compare os dois resultados e verifique que eles são iguais.
 
-#### Exemplo 6 ‒ clone de repositório remoto
+#### Exemplo 5 ‒ clone de repositório remoto
 
 Se o repositório a ser clonado estiver em outra máquina que não a sua máquina local, o processo de clone é o mesmo. O que muda é que vamos substituir no comando `git clone` o nome da pasta aonde está o repositório a ser clonado, por uma URL. Para dar um exemplo prático, vamos fazer um clone do repositório Freevox dentro da pasta clone criada anteriormente.
 
@@ -522,7 +569,7 @@ A exemplo do que aconteceu anteriormente,voce vai encontrar dentro da pasta `clo
 
 Agora que aprendemos a fazer clones de um repositório, vamos aprender a atualizar o clone a partir do clonado e vice-versa.
 
-#### Exemplo 7 ‒ sincronia entre repositórios
+#### Exemplo 6 ‒ sincronia entre repositórios
 
 Ao processo de atualização de um clone a partir de um clonado vamos dar o nome de _**pull**_. E ao processo de atulização de um clonado a partir de um clone daremos o nome de _**push**_.
 
@@ -580,7 +627,7 @@ To https://github.com/magoolation/FreeVox
 
 O comando `git push` é responsável por transferir commits presentes no repositório local para o repositório remoto. O comando naturalmente só vai transferir os commits que ainda não estão presentes no central. Após a execução do comando, foram solicitados um login e uma senha.
 
-#### O comando `git pull` para "puxar" commit para histórico de destino
+##### O comando `git pull` para "puxar" commit para histórico de destino
 
 Uma vez que os commits estão presentes no repositório remoto, posso instruir ao segundo clone que puxe esses commits.
 
