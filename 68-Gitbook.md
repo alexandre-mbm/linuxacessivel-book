@@ -6,7 +6,7 @@ Concluimos que com a integração Gitbook-GitHub, a edição dos arquivos é tod
 
 Então torna-se-se muito conveniente termos uma forma de testar o livro localmente, antes de empurrar as alterações (commits) para o GitHub. Esse teste é realizado mediante uso do utilitário `gitbook-cli`, um software que nos proporcionará instanciar um servidor de testes local para _build_ automático do livro.
 
-1. [Instalando o gitbook-cli](#1-instalar-o-gitbook-cli)
+1. [Instalando o gitbook-cli](#1-instalando-o-gitbook-cli)
 2. [Executando o servidor de testes](#2-executando-o-servidor-de-testes)
 3. [Finalmente, o teste](#3-finalmente-o-teste)
 4. [Vantagens e desvantagens](#4-vantagens-e-desvantagens)
