@@ -45,7 +45,8 @@ O objetivo deste documento é fornecer aos leitores informações necessárias p
     - [Usar o branch, adicionando commits](#usar-o-branch-adicionando-commits)
     - [Visualizar histórico de branch](#visualizar-hist%25C3%25B3rico-de-branch)
     - [Fazer "checkouts" e comparar históricos de branches](#fazer-checkouts-e-comparar-hist%25C3%25B3ricos-de-branches)
-    - [Resumo](#resumo)
+  - [Resumo](#resumo)
+
 
 ## O que é um sistema controlador de versões?
 
@@ -388,8 +389,8 @@ Uma coisa que não foi dita antes, mas que pode ser dita agora, é que existe um
 
 ```console
 $ git commit -a -m "alterações no arquivo a.txt e b.txt"
-[master 6f2d250] alterações no arquivo a.txt e b.txt 
- 2 files changed, 3 insertions(+) 
+[master 6f2d250] alterações no arquivo a.txt e b.txt
+ 2 files changed, 3 insertions(+)
 ```
 
 ### Repositório local _vs._ remoto
@@ -805,9 +806,11 @@ a.txt  b.txt  nada
 
 Repare também na resposta do comando `ls`. Ela mostra que só temos os arquivos `a.txt`, `b.txt` e `nada`. São três arquivos. `c.txt` e `d.txt` só estão presentes no branch `rotina-r1`.
 
-#### Resumo
+### Resumo
 
-O branch nos permite o desenvolvimento paralelo de duas ou mais versões do nosso sistema. Podemos ter quantos branches quisermos, em nosso repositório. Para criarmos um branch de nome `x` no nosso repositório, usamos o seguinte comando:
+O branch nos permite o desenvolvimento paralelo de duas ou mais versões do nosso sistema. Podemos ter quantos branches quisermos, em nosso repositório.
+
+Para criarmos um branch de nome `x` no nosso repositório, usamos o seguinte comando:
 
 ```sh
 git branch x
@@ -823,4 +826,10 @@ Para mudarmos o foco para o branch `x`, usamos o seguinte comando:
 
 ```sh
 git checkout x
+```
+
+Para mudarmos o foco para um novo branch `x`a partir do atual, usamos o seguinte comando:
+
+```sh
+git checkout -b x
 ```
