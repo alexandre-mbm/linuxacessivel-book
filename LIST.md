@@ -17,7 +17,7 @@ Sugerida por Luciano de Souza no grupo virtual Linux Acessível. [Saiba mais...]
 13. Firefox - copiando tabelas com Tab2Clipboard
 14. Firefox - Guardando na nuvem os favoritos com XMarks
 15. Firefox - Habilitando o Flash para a reprodução de conteúdos multimídia
-16. GIT - Versionando informações de um projeto
+16. [GIT - Versionando informações de um projeto](16-Git.md)
 17. Gnome dictionary - Utilizando dicionário de inglês
 18. Gnome Session Fallback - Uma alternativa à interface Unity
 19. Gnome Settings - Alterando o volume do computador

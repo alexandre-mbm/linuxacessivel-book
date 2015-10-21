@@ -94,7 +94,7 @@
     - [Graphviz](24i-Graphviz.md)
         - [Fluxogramas](24-Graphviz.md) <!-- Desenhando um fluxograma de modo acessível -->
         - [Organogramas](25-Graphviz.md) <!-- Desenhando um organograma de modo acessível -->
-    - [GIT](16-GIT.md) <!-- Versionando informações de um projeto -->
+    - [GIT](16-Git.md) <!-- Versionando informações de um projeto -->
     - [GitHub](61i-GitHub.md) <!-- Projetos compartilhados -->
         - [Para usuário](61-GitHub.md)
         - [Para colaborador de projeto](62-GitHub.md)
