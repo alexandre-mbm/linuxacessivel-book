@@ -4,13 +4,15 @@ O objetivo deste documento é fornecer aos leitores informações necessárias p
 
 - [O que é um sistema controlador de versões?](#o-que-%25C3%25A9-um-sistema-controlador-de-vers%25C3%25B5es)
 - [Tipos de controlador de versões](#tipos-de-controlador-de-vers%25C3%25B5es)
-- [Configuração](#configura%25C3%25A7%25C3%25A3o)
-  - [Instalação em Windows](#instala%25C3%25A7%25C3%25A3o-em-windows)
-  - [Instalação em Mac](#instala%25C3%25A7%25C3%25A3o-em-mac)
-  - [Instalação em GNU/Linux](#instala%25C3%25A7%25C3%25A3o-em-gnu-linux)
-  - [Compilar?](#compilar)
-  - [Versão do git](#vers%25C3%25A3o-do-git)
-  - [Identidade do usuário](#identidade-do-usu%25C3%25A1rio)
+- [Instalação e configuração](#instala%25C3%25A7%25C3%25A3o-e-configura%25C3%25A7%25C3%25A3o)
+  - [Instalação](#instala%25C3%25A7%25C3%25A3o)
+    - [Instalação em Windows](#instala%25C3%25A7%25C3%25A3o-em-windows)
+    - [Instalação em Mac](#instala%25C3%25A7%25C3%25A3o-em-mac)
+    - [Instalação em GNU/Linux](#instala%25C3%25A7%25C3%25A3o-em-gnu-linux)
+    - [Compilar?](#compilar)
+    - [Versão do git](#vers%25C3%25A3o-do-git)
+  - [Configuração](#configura%25C3%25A7%25C3%25A3o)
+    - [Identidade do usuário](#identidade-do-usu%25C3%25A1rio)
 - [Usando o básico](#usando-o-b%25C3%25A1sico)
   - [Clone de repositório local](#clone-de-reposit%25C3%25B3rio-local)
   - [Gravando alterações](#gravando-altera%25C3%25A7%25C3%25B5es)
@@ -66,7 +68,7 @@ Naturalmente as operações de empurrar e puxar alterações precisam de autoriz
 
 O git é um sistema controlador de versões a exemplo do subversion, mas enquanto o subversion está na categoria dos sistemas centralizados, o git está na categoria dos sistemas distribuidos.
 
-## Configuração
+## Instalação e configuração
 
 Agora que já sabemos o que é um sistema controlador de versões, o que é um repositório e o que é o git, podemos começar a sujar as mãos. Inicialmente usaremos apenas um repositório local, mas tudo que vamos aprender nessa parte do tutorial poderá ser aplicado quando estivermos utilizando repositórios remotos.
 
@@ -74,19 +76,21 @@ Lembre-se de que tudo que é feito no git é primeiramente feito na cópia local
 
 Os exemplos mostrados neste tutorial são executados em uma máquina com o **Ubuntu 12.04** instalado, mas devem funcionar sem problemas em ambiente Windows ou em ambiente Mac.
 
-### Instalação em Windows
+### Instalação
 
-git, da maneira que é ensinando neste tutorial, trabalha em modo texto, o que significa dizer que em ambiente Windows seria o caso de utilizar o Prompt de Comando.
+#### Instalação em Windows
+
+git, da maneira como é ensinada neste tutorial, trabalha em modo texto, o que significa dizer que em ambiente Windows seria o caso de utilizar o Prompt de Comando.
 
 Para instalar o git na sua máquina Windows, você deve acessar [git-for-windows.github.io](https://git-for-windows.github.io/) e baixar o arquivo sugerido, na versão mais recente que encontrar. O instalador implantará na sua máquina o git e ferramentas básicas de sistemas Unix, tal como a shell Bash, que é como um Prompt de Comando. Um atalho "Msys" será criado no menu iniciar, dentro da pasta Programas. Todos os comandos do seu Windows estarão disponníveis naquela shell, e mais o git e alguns comandos portados de  ambientes _unix-like_ tais como Mac OS e GNU/Linux.
 
-### Instalação em Mac
+#### Instalação em Mac
 
 Para instalar o git no Mac, a forma mais simples é usando o instalador que é [disponibilizado](http://code.google.com/p/git-osx-installer/downloads/list?can=3&q=&sort=-uploaded&colspec=Filename+Summary+Uploaded+Size+DownloadCount) pelo projeto **git-osx-installer**. Baixe a versão mais recente e execute o arquiv o .PKG.
 
 Opcionalmente você poderá lançar mão de um gerenciador de pacotes tal como o homebrew ou o macports. Poderá utilizá-los para instalar o git com muito mais praticidade, desde que você tenha instaladas as "ferramentas de desenvolvedor" da Apple.
 
-### Instalação em GNU/Linux
+#### Instalação em GNU/Linux
 
 Em ambiente GNU/Linux que seja derivado da distribuição Debian, você deverá executar o seguinte comando:
 
@@ -94,11 +98,11 @@ Em ambiente GNU/Linux que seja derivado da distribuição Debian, você deverá 
 sudo apt-get install git-core
 ```
 
-### Compilar?
+#### Compilar?
 
 Em Mac ou GNU/Linux, e mesmo em Windows, se você for suficientemente louco para tal, você pode compilar o git. O código fonte você obtém com o projeto [git-core](http://code.google.com/p/git-core/downloads/list).
 
-### Versão do git
+#### Versão do git
 
 Uma vez instalado o git, vamos verificar se a instalação está OK. Para tal, digite o seguinte comando:
 
@@ -109,7 +113,13 @@ git version 1.7.9.5
 
 É possível que a versão do git em seu sistema seja da versão apresentada no exemplo acima. Isso não tem muito importância, não deverá ser um problema. Pois os comandos ensinados neste material são simples e rotineiros, provavelmente compatíveis com qualquer versão de git existente.
 
-### Identidade do usuário
+### Configuração
+
+Uma vez instalado, vamos atribuir valores para algumas variáveis de configuração do git.
+Essas variáveiss tem por objetivo controlar alguns aspectos do seu funcionamento.
+Recomendo  [Configuração Inicial do Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git) para maiores esclarecimentos.
+
+#### Identidade do usuário
 
 O próximo passo é informar ao git um nome de usuário e um e-mail. Essas informações serão utilizadas pelo git para ele identificar o autor das manutenções que são feitas no conjunto dos arquivos gerenciados. As configurações podem valer globalmente, para todos os repositórios, ou individualmente, para um único repositório.
 
@@ -121,6 +131,8 @@ git config --global user.email "vilmar@informal.com.br"
 ```
 
 Observe que o nome do usuário e o e-mail estão entre aspas duplas, pois são valores. E que existem dois hífens antes da palavra global, porque ela é uma opção do comando.
+
+Não se esqueça de substituir os valores utilizados nos comandos acima pelos valores apropriados, pois os valores usados foram utilizados apenas como exemplos.
 
 Para checar se a configuração está correta, faça como a seguir:
 
