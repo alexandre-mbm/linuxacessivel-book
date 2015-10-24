@@ -14,6 +14,7 @@ O objetivo deste documento é fornecer aos leitores informações necessárias p
   - [Configuração](#configura%25C3%25A7%25C3%25A3o)
     - [Identidade do usuário](#identidade-do-usu%25C3%25A1rio)
 - [Obtendo ajuda](#obtendo-ajuda)
+- [Os Três estados dos arquivos](#os-tr%25C3%25AAs-estados-dos-arquivos)
 - [Usando o básico](#usando-o-b%25C3%25A1sico)
   - [Clone de repositório local](#clone-de-reposit%25C3%25B3rio-local)
   - [Gravando alterações](#gravando-altera%25C3%25A7%25C3%25B5es)
@@ -158,6 +159,38 @@ git help config
 ```
 
 Isto vai exiber uma explanação do comando `config` e das suas opções.
+
+## Os Três Estados dos arquivos
+
+Os arquivos gerenciados pelo git estão sempre em um dos seguintes estados:
+
+- consolidado (committed)
+- modificado (modified)
+- preparado (staged)
+
+Arquivos consolidados são aqueles que estão armazenados no seu reposítorio, sem modificações pendentes.
+
+Arquivos modificados são aqueles que foram alterados mas ainda não foram consolidados.
+
+Arquivos preparados são arquivos modificados que foram marcados para fazerem parte do próximo commit.
+
+O git trabalha com três sessões para armazenamento dos arquivos.
+
+- diretório do Git (git directory, repository)
+- diretório de trabalho (working directory)
+- área de preparação (staging area).
+
+O diretório do Git é o local onde o Git armazena os metadados e o banco de objetos dos arquivos que estão sendo gerenciados. Esta é a parte mais importante do Git, e é a parte copiada quando você faz clone de um repositório.
+
+O diretório de trabalho é um único checkout de uma versão dos arquivos. Estes arquivos são obtidos a partir da base de dados comprimida no diretório do Git e colocados em disco para que você possa utilizar ou modificar.
+
+A área de preparação é um simples arquivo, geralmente contido no seu diretório Git, que armazena informações sobre o que irá em seu próximo commit. É bastante conhecido como índice (index), mas está se tornando padrão chamá-lo de área de preparação.
+
+O fluxo de trabalho no git pode ser descrito da seguinte maneira:
+
+1. Você modifica arquivos no seu diretório de trabalho.
+2. Você seleciona os arquivos e adiciona na área de preparação.
+3. Você faz um commit, que leva os arquivos como eles estão na sua área de preparação e os armazena permanentemente no seu diretório Git.
 
 ## Usando o básico
 
