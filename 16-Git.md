@@ -55,7 +55,10 @@ O objetivo deste documento é fornecer aos leitores informações necessárias p
 
 É um sistema que guarda a história de todas as manutenções feitas em um conjunto de arquivos, permitindo que o estado desse conjunto de arquivos possa ser revertido para um outro estado. Isso significa dizer que o conteúdo do conjunto de arquivos pode ser restaurado para um ponto anterior ao atual. O sistema controlador de versões mantém registro de todas as atualizações, o que permite que as atualizações possam ser desfeitas. São ainda mantidas pelo sistema informações de quem fez as alterações, bem como a natureza das mesmas.
 
-O conjunto de arquivos e o histórico das manutenções são armazenados e mantidos pelo sistema controlador de versões em uma estrutura de dados chamada repositório.
+O conjunto de arquivos e o histórico das manutenções são armazenados e mantidos pelo sistema controlador de versões em uma estrutura de dados chamada 
+repositório.
+
+Leia mais a respeito em [Sobre Controle de Versão](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o).
 
 ## Tipos de controlador de versões
 
