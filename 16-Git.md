@@ -13,6 +13,7 @@ O objetivo deste documento é fornecer aos leitores informações necessárias p
     - [Versão do git](#vers%25C3%25A3o-do-git)
   - [Configuração](#configura%25C3%25A7%25C3%25A3o)
     - [Identidade do usuário](#identidade-do-usu%25C3%25A1rio)
+- [Obtendo ajuda](#obtendo-ajuda)
 - [Usando o básico](#usando-o-b%25C3%25A1sico)
   - [Clone de repositório local](#clone-de-reposit%25C3%25B3rio-local)
   - [Gravando alterações](#gravando-altera%25C3%25A7%25C3%25B5es)
@@ -137,12 +138,23 @@ Não se esqueça de substituir os valores utilizados nos comandos acima pelos va
 Para checar se a configuração está correta, faça como a seguir:
 
 ```console
-$ git config --list
+git config --list
 user.name=José Vilmar Estácio de Souza
 user.email=vilmar@informal.com.br
 ```
 
 A opção `--global` indica que todos os repositórios estarão configurados para o mesmo nome de usuário e o mesmo e-mail. Caso você queira ou precise configurar um e-mail e/ou nome de usuário diferente para algum de seus repositórios, você pode fazer um `cd` para a pasta do repositório, e executar os comandos de configuração sem a opção `--global`.
+
+## Obtendo ajuda
+
+Caso você precise de alguma ajuda no git, utilize o comando `help` para obter essa ajuda.
+Se por exemplo você tem duvidas quanto ao uso do comando `config` utilizado préviamente, utilize o seguinte comando:
+
+```console
+git help config
+```
+
+Isto vai exiber uma explanação do comando `config` e das suas opções.
 
 ## Usando o básico
 
