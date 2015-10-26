@@ -240,7 +240,7 @@ Vamos a um exemplo prático utilizando o repositório criado anteriormente.  Lem
 Inicialmente vamos perguntar ao git qual é a situação atual, e para tal vamos utilizar o comando `git status`:
 
 ```console
-Git status
+$ git status
 # On branch master
 #
 # Initial commit
@@ -282,7 +282,7 @@ Uma forma rápida de incluir todas as modificações é usar o comando `git add 
 
 ```console
 $ git add a.txt b.txt
-Git status
+$ git status
 # On branch master
 #
 # Initial commit
@@ -358,8 +358,8 @@ A área está limpa e não existe nenhum commit para ser feito. Todas as altera�
 
 Vamos agora alterar o conteúdo do arquivo `a.txt` para começar o processo de uma nova modificação. Incluirei nesse arquivo uma nova linha. Veja a resposta do comando `git status` após essa modificação:
 
-```
-Git status
+```console
+$ git status
 # On branch master
 # Changes not staged for commit:
 #   (use "git add <file>..." to update what will be committed) 
@@ -457,7 +457,7 @@ $ git commit -a -m "alterações no arquivo a.txt e b.txt"
 
 É sempre bom lembrar que um copo vazio está cheio de ar, e que os commits feitos estão apenas no repositório do usuário. O que significa dizer que outros usuários ainda não tem acesso a essas modificações. Mas, conforme já dito, é possível propagar essas modificações para outros usuários, o que será visto mais adiante.
 
-O próximo passo é aprender a identificar o que foi modificado e por quem. Lembre-se que desde que devidamente autorizado, o seu repositório pode ser alterado a partir de outros repositórios da mesma forma que o seu repositório também pode alterar outros repositórios. Isso é feita de forma distribuída, "desconectada" e indepentemente. Todos os colaboradores de projeto versionado em Git tem suas cópias locais, seus históricos locais, que depois são unidos ou mesclados em respositório(s) remoto(s). Você vai fazer tantas alterações no seu repositório que em pouco tempo vai se esquecer do que foi feito. Por essas e por outras é muito importante que você documente muito bem o que faz, no histórico de seu branch de trabalho.
+O próximo passo é aprender a identificar o que foi modificado e por quem. Lembre-se que desde que devidamente autorizado, o seu repositório pode ser alterado a partir de outros repositórios da mesma forma que o seu repositório também pode alterar outros repositórios. Isso é feita de forma distribuída, "desconectada" e independente. Todos os colaboradores de projeto versionado em Git tem suas cópias locais, seus históricos locais, que depois são unidos ou mesclados em repositório(s) remoto(s). Você vai fazer tantas alterações no seu repositório que em pouco tempo vai se esquecer do que foi feito. Por essas e por outras é muito importante que você documente muito bem o que faz, no histórico de seu branch de trabalho.
 
 #### Exemplo 3 ‒ sobre gerenciar as linhas de trabalho
 
@@ -468,7 +468,7 @@ Um outro ponto fundamental é que você não misture as modificações. Supondo 
 
 Evite, se possível, colocar as duas correções em um único commit.
 
-Se você não está exatamente corrigindo erros mas, invés disso, adicionado coisa, melhorando, tente trabalhar cada assunto em branches (ramos) separados. [Nós ainda aprenderemos sobre branches](#utilizando-branches).
+Se você não está exatamente corrigindo erros mas ao invés disso adicionando coisas ou melhorando, tente trabalhar cada assunto em branches (ramos) separados. [Nós ainda aprenderemos sobre branches](#utilizando-branches).
 
 ##### O comando `git log` mostra o histórico de commits
 
@@ -517,7 +517,7 @@ git log > git.log
 
 Nesse caso será gerado um arquivo `git.log` com toda a saída do comando. Isto vale para qualquer comando do git.
 
-Um problema que voce pode ter, é que se voce gerar o arquivo `git.log` dentro da pasta `repo1`, pasta aonde reside o repositório, o git vai te informar que o arquivo `git.log` ainda não foi marcado para fazer parte do próximo commit. Isto acontece porque o arquivo `git.log` agora faz parte da sua _working tree_. Então, se voce usar o comando `git add .` para adicionar todos os arquivos da _working tree_ à área _index_, o arquivo `git.log` será adicionado indevidamente.
+Um problema que voce pode ter, é que se voce gerar o arquivo `git.log` dentro da pasta `repo1`, pasta aonde reside o nosso repositório exemplo, o git vai te informar que o arquivo `git.log` ainda não foi marcado para fazer parte do próximo commit. Isto acontece porque o arquivo `git.log` agora faz parte da sua _working tree_. Então, se voce usar o comando `git add .` para adicionar todos os arquivos da _working tree_ à área _index_, o arquivo `git.log` será adicionado indevidamente.
 
 Mais adiante veremos que é possível configurar o git para que ele ignore certos arquivos. Poderemos informar ao git, por exemplo, que o arquivo chamado `git.log` nunca será incluido no repositório. 
 
@@ -533,7 +533,9 @@ O comando `git log` tem ainda a opção `-p`, que é bastante interessante. A op
 linha 1
 ```
 
-Vou alterar esse arquivo colocando um "." no final da primeira linha e acrescentar uma segunda linha. A opção `-1` limita a quantidade de commits a ser mostrada:
+Vou alterar esse arquivo colocando um "." no final da primeira linha e acrescentar uma segunda linha. A opção `-1` do comando `git log` limita a quantidade de commits a ser mostrada:
+
+Após alterar o arquivo devo executar um `git add` e um `git commit` para que o arquivo alterado seja salvo no repositório.
 
 ```console
 $git log -p -1
@@ -803,7 +805,7 @@ $ git branch
 * rotina-r1
 ```
 
-Temos dois branches: `master` e `rotina-r1`. E o branch no qual estamos trabalhando é o `rotina-r1`.
+Temos dois branches: `master` e `rotina-r1`. E o branch no qual estamos trabalhando é o `rotina-r1`, informação indicada por um "*" antes do nome do branch.
 
 #### Usar o branch, adicionando commits
 
