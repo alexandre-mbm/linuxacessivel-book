@@ -142,7 +142,7 @@ Não se esqueça de substituir os valores utilizados nos comandos acima pelos va
 Para checar se a configuração está correta, faça como a seguir:
 
 ```console
-git config --list
+$ git config --list
 user.name=José Vilmar Estácio de Souza
 user.email=vilmar@informal.com.br
 ```
@@ -155,7 +155,7 @@ Caso você precise de alguma ajuda no git, utilize o comando `help` para obter e
 Se por exemplo você tem duvidas quanto ao uso do comando `config` utilizado préviamente, utilize o seguinte comando:
 
 ```console
-git help config
+$ git help config
 ```
 
 Isto vai exiber uma explanação do comando `config` e das suas opções.
