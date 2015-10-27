@@ -184,11 +184,13 @@ O diretório de trabalho é um único checkout de uma versão dos arquivos. Este
 
 A área de preparação é um simples arquivo, geralmente contido no seu diretório Git, que armazena informações sobre o que irá em seu próximo commit. É bastante conhecido como índice (index), mas está se tornando padrão chamá-lo de área de preparação.
 
-O fluxo de trabalho no Git pode ser descrito da seguinte maneira:
+O fluxo de trabalho no Git pode ser descrito simplificadamente da seguinte maneira:
 
 1. Você modifica arquivos no seu diretório de trabalho.
 2. Você seleciona os arquivos e adiciona na área de preparação.
 3. Você faz um commit, que leva os arquivos como eles estão na sua área de preparação e os armazena permanentemente no seu diretório Git.
+
+Quando se trabalha com Git, faz-se pelo menos o que está acima. Dizemos que é o "fluxo de trabalho no Git". Porém, existem receitas de sequências de passos que podem ajudar equipes a trabalhar mais harmoniosamente por evitar conflitos de edição. Tais receitas também são chamadas "fluxos de trabalho", mas devem ser tratadas à parte, como tópicos especiais.
 
 ## Usando o básico
 
