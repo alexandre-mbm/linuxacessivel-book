@@ -56,10 +56,9 @@ O objetivo deste documento é fornecer aos leitores informações necessárias p
 
 É um sistema que guarda a história de todas as manutenções feitas em um conjunto de arquivos, permitindo que o estado desse conjunto de arquivos possa ser revertido para um outro estado. Isso significa dizer que o conteúdo do conjunto de arquivos pode ser restaurado para um ponto anterior ao atual. O sistema controlador de versões mantém registro de todas as atualizações, o que permite que as atualizações possam ser desfeitas. São ainda mantidas pelo sistema informações de quem fez as alterações, bem como a natureza das mesmas.
 
-O conjunto de arquivos e o histórico das manutenções são armazenados e mantidos pelo sistema controlador de versões em uma estrutura de dados chamada 
-repositório.
+O conjunto de arquivos e o histórico das manutenções são armazenados e mantidos pelo sistema controlador de versões em uma estrutura de dados chamada repositório.
 
-Leia mais a respeito em [Sobre Controle de Versão](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o).
+Leia mais a respeito em "[Sobre Controle de Versão](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o)", capítulo do livro Pro Git.
 
 ## Tipos de controlador de versões
 
@@ -87,7 +86,7 @@ Os exemplos mostrados neste tutorial são executados em uma máquina com o **Ubu
 
 git, da maneira como é ensinada neste tutorial, trabalha em modo texto, o que significa dizer que em ambiente Windows seria o caso de utilizar o Prompt de Comando.
 
-Para instalar o git na sua máquina Windows, você deve acessar [git-for-windows.github.io](https://git-for-windows.github.io/) e baixar o arquivo sugerido, na versão mais recente que encontrar. O instalador implantará na sua máquina o git e ferramentas básicas de sistemas Unix, tal como a shell Bash, que é como um Prompt de Comando. Um atalho "Msys" será criado no menu iniciar, dentro da pasta Programas. Todos os comandos do seu Windows estarão disponníveis naquela shell, e mais o git e alguns comandos portados de  ambientes _unix-like_ tais como Mac OS e GNU/Linux.
+Para instalar o git na sua máquina Windows, você deve acessar [git-for-windows.github.io](https://git-for-windows.github.io/) e baixar o arquivo sugerido, na versão mais recente que encontrar. O instalador implantará na sua máquina o git e ferramentas básicas de sistemas Unix, tal como a shell Bash, que é como um Prompt de Comando. Um atalho "Msys" será criado no menu iniciar, dentro da pasta Programas. Todos os comandos do seu Windows estarão disponníveis naquela shell, e mais o git e alguns comandos portados de ambientes _unix-like_ tais como Mac OS e GNU/Linux.
 
 #### Instalação em Mac
 
@@ -120,9 +119,9 @@ git version 1.7.9.5
 
 ### Configuração
 
-Uma vez instalado, vamos atribuir valores para algumas variáveis de configuração do git.
-Essas variáveiss tem por objetivo controlar alguns aspectos do seu funcionamento.
-Recomendo  [Configuração Inicial do Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git) para maiores esclarecimentos.
+Uma vez instalado, vamos atribuir valores para algumas variáveis de configuração do git. Essas variáveiss tem por objetivo controlar alguns aspectos do seu funcionamento.
+
+É recomendada a leitura de "[Configuração Inicial do Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git)" para maiores esclarecimentos.
 
 #### Identidade do usuário
 
@@ -151,14 +150,13 @@ A opção `--global` indica que todos os repositórios estarão configurados par
 
 ## Obtendo ajuda
 
-Caso você precise de alguma ajuda no git, utilize o comando `help` para obter essa ajuda.
-Se por exemplo você tem duvidas quanto ao uso do comando `config` utilizado préviamente, utilize o seguinte comando:
+Caso você precise de alguma ajuda no git, utilize o comando `help` para obter essa ajuda. Se por exemplo você tem dúvidas quanto ao uso do comando `config` utilizado anteriormente, faça o seguinte:
 
 ```console
 $ git help config
 ```
 
-Isto vai exiber uma explanação do comando `config` e das suas opções.
+Isto vai exibir uma explanação sobre o comando `config` e as opções dele.
 
 ## Os Três Estados dos arquivos
 
@@ -172,9 +170,9 @@ Arquivos consolidados são aqueles que estão armazenados no seu reposítorio, s
 
 Arquivos modificados são aqueles que foram alterados mas ainda não foram consolidados.
 
-Arquivos preparados são arquivos modificados que foram marcados para fazerem parte do próximo commit.
+Arquivos preparados são arquivos modificados que estão marcados para fazer parte do próximo commit.
 
-O git trabalha com três sessões para armazenamento dos arquivos.
+O git trabalha com três sessões para armazenamento de arquivos:
 
 - diretório do Git (git directory, repository)
 - diretório de trabalho (working directory)
@@ -186,7 +184,7 @@ O diretório de trabalho é um único checkout de uma versão dos arquivos. Este
 
 A área de preparação é um simples arquivo, geralmente contido no seu diretório Git, que armazena informações sobre o que irá em seu próximo commit. É bastante conhecido como índice (index), mas está se tornando padrão chamá-lo de área de preparação.
 
-O fluxo de trabalho no git pode ser descrito da seguinte maneira:
+O fluxo de trabalho no Git pode ser descrito da seguinte maneira:
 
 1. Você modifica arquivos no seu diretório de trabalho.
 2. Você seleciona os arquivos e adiciona na área de preparação.
@@ -219,7 +217,7 @@ Para complicar um pouco mais, o mesmo vale para as alterações feitas nos arqui
 
 O processo de adicionar arquivos, pastas e alterações ao repositório é feito em duas fases.
 
-Na primeira fase vamos usar o comando `git add` para marcar as  alterações que serão incluidas no repositório. A essa fase damos o nome de _staging_.
+Na primeira fase vamos usar o comando `git add` para marcar as alterações que serão incluidas no repositório. A essa fase damos o nome de _staging_.
 
 Na segunda fase vamos usar o comando `git commit` para que as modificações feitas na fase anterior sejam efetivadas no repositório. A essa fase damos o nome de _committing_.
 
@@ -233,7 +231,7 @@ A terceira é a área que guarda os commits feitos no repositório.
 
 #### Exemplo 1 ‒ começar a versionar
 
-Vamos a um exemplo prático utilizando o repositório criado anteriormente.  Lembrando que os comandos devem ser executados no prompt de comandos.
+Vamos a um exemplo prático utilizando o repositório criado anteriormente. Lembrando que os comandos devem ser executados no prompt de comandos.
 
 ##### O comando `git status`
 
@@ -440,7 +438,7 @@ Tudo isto para dizer que, se executarmos o comando `git commit` nesse momento, a
 
 Para que as alterações feitas sejam colocadas no repositório, precisamos executar dois passos.
 
-1. Informar ao git as alterações a serem consideradas no próximo commit.    Usamos para tal o comando `git add`.
+1. Informar ao git as alterações a serem consideradas no próximo commit. Usamos para tal o comando `git add`.
 2. Informar ao git que o commit deve ser feito. Usamos para tal o comando `git commit`.
 
 ##### O comando `git commit -a` fazendo "add" geral de alterações
@@ -527,7 +525,7 @@ Podemos ainda diminuir o tamanho da saída do comando `git log` usando a opção
 
 ##### O comando `git log` incluindo "diff"
 
-O comando `git log` tem ainda a opção `-p`, que é bastante interessante. A opção mostra o que foi alterado dentro dos arquivos que fazem parte do commit. Atualmente o arquivo `a.txt` possui apenas uma linha com o seguinte conteudo:
+O comando `git log` tem ainda a opção `-p`, que é bastante interessante. A opção mostra o que foi alterado dentro dos arquivos que fazem parte do commit. Atualmente o arquivo `a.txt` possui apenas uma linha com o seguinte conteúdo:
 
 ```
 linha 1
@@ -535,7 +533,7 @@ linha 1
 
 Vou alterar esse arquivo colocando um "." no final da primeira linha e acrescentar uma segunda linha. A opção `-1` do comando `git log` limita a quantidade de commits a ser mostrada:
 
-Após alterar o arquivo devo executar um `git add` e um `git commit` para que o arquivo alterado seja salvo no repositório.
+(após alterar o arquivo devo executar um `git add` e um `git commit` para que o arquivo alterado seja salvo no repositório)
 
 ```console
 $git log -p -1
@@ -626,7 +624,7 @@ remote: Total 65 (delta 8), reused 59 (delta 5)
 Unpacking objects: 100% (65/65), done.
 ```
 
-A exemplo do que aconteceu anteriormente,voce vai encontrar dentro da pasta `clone` a pasta `Freevox`.  Faça um `cd` para a pasta Freevox e execute o comando `git log`.
+A exemplo do que aconteceu anteriormente,voce vai encontrar dentro da pasta `clone` a pasta `Freevox`. Faça um `cd` para a pasta Freevox e execute o comando `git log`.
 
 Agora que aprendemos a fazer clones de um repositório, vamos aprender a atualizar o clone a partir do clonado e vice-versa.
 
@@ -811,7 +809,7 @@ Temos dois branches: `master` e `rotina-r1`. E o branch no qual estamos trabalha
 
 Agora vamos incluir os arquivos `c.txt` e `d.txt` no branch `rotina-r1`, e depois faremos commit dessas alterações.
 
-Depois de feitas as alterações, executaremos alguns comandos para mostrar como ficou o nosso repositório.
+Feitas as alterações, executaremos alguns comandos para mostrar como ficou o nosso repositório.
 
 ```console
 $ git status
@@ -819,7 +817,7 @@ $ git status
 nothing to commit (working directory clean)
 ```
 
-A resposta do comando acima mostra que estamos no branch `rotina-r1` e que  não existem alterações pendentes.
+A resposta do comando acima mostra que estamos no branch `rotina-r1` e que não existem alterações pendentes.
 
 #### Visualizar histórico de branch
 
