@@ -33,6 +33,9 @@
 #
 # Instalação:
 #
+#       sudo pip install gitpython
+#       sudo pip install tabulate
+#
 #       export PATH=$PATH:$(pwd)
 #
 # Uso:
